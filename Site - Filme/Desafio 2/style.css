@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 99vw;
+    background: white;
+    padding: 1vw;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(92, 92, 92);
+    box-shadow: 0px 9px 8px rgba(36, 36, 36, 0.2);
+}
+
+header .textodapagina {
+    margin: 2vw;
+    padding: 0.5vw;
+    width: 30vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .links {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(92, 92, 92);
+}
+
+header .links a {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-size: 1.5vw;
+    margin: 0 1vw;
+}
+
+header .links a:hover {
+    color: rgb(168, 52, 200);
+    transition: color 0.3s ease;
+    & .container17 img:hover {
+        transform: scale(1.1); 
+    }
+}
+
+header .links button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(168, 52, 200);
+    padding: 1vw;
+    border-radius: 0.5vw;
+    color: white;
+    border: none;
+    width: 8vw;
+    height: 6vh;
+}
+
+main {
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        background: white;
+        align-items: center;
+        padding: 2vw;
+    }
+}
+
+main {
+    & .container3 h1 {
+        width: 30vw;
+        font-size: 4.0vw;
+        color: rgb(168, 52, 200);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+    }
+
+    & .container3 h2 {
+        margin-top: 2vw;
+        font-size: 1.2vw;
+        color: rgb(92, 92, 92);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: left;
+        width: 40vw;
+    }
+
+    & .container3 img {
+        margin-top: 2vw;
+        text-align: right;
+        width: 10.0vw;
+        height: auto;
+    }
+
+    & .container4 img {
+        text-align: right;
+        width: 40.0vw;
+        height: auto;
+    }
+}
+
+    .container5 {
+        padding: 20px;
+        background-color:  rgb(128, 32, 154);
+        text-align: center;
+    
+        & .container6 h2{
+            font-size: 3vw;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 5vh;
+            text-align: center;
+        }
+    
+    }
+    
+
+.container7 {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    background: white;
+    align-items: center;
+    padding: 2vw;
+
+    & .container8 img {
+        margin-top: 5vw;
+        text-align: left;
+        width: 30vw;
+        height: auto;
+    }
+
+    .container11 {
+        justify-content: column;
+
+        .container9 {
+
+            width:40vw;
+            display: flex;
+            align-items: right;
+            justify-content: right;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+
+            & .div1 {
+                width: 15vw;
+                background-color: rgba(168, 52, 200, 0.501);
+                border-radius: 0.5vw;
+                text-align: center;
+                margin: 2vw;
+                padding: 2vw;
+            }
+
+            & .div1 img {
+                width: 10vw;
+                height: auto;
+            }
+
+            & .div2 {
+                width: 15vw;
+                background-color: rgba(168, 52, 200, 0.501);
+                border-radius: 0.5vw;
+                text-align: center;
+                margin: 2vw;
+                padding: 2vw;
+            }
+
+            & .div2 img {
+                width: 10vw;
+                height: auto;
+            }
+        }
+
+        .container10 {
+            width: 40vw;
+            display: flex;
+            align-items: right;
+            justify-content: right;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+
+            & .div3 {
+                width: 15vw;
+                background-color: rgba(168, 52, 200, 0.501);
+                border-radius: 0.5vw;
+                text-align: center;
+                margin: 2vw;
+                padding: 2vw;
+            }
+
+            & .div3 img {
+                width: 5vw;
+                height: auto;
+            }
+
+            & .div4 {
+                width: 15vw;
+                background-color: rgba(168, 52, 200, 0.501);
+                border-radius: 0.5vw;
+                text-align: center;
+                margin: 2vw;
+                padding: 2vw;
+            }
+
+            & .div4 img {
+                width: 5vw;
+                height: auto;
+            }
+        }
+    }
+}
+
+.container12 {
+    display:flex;
+    flex-direction: column;
+
+    & .container13 img{
+        width: 100vw;
+        background-color: rgba(200, 198, 198, 0.086);
+        align-items: center;
+    }
+}
+
+.container14 {
+    display:flex;
+    flex-direction: column;
+
+    & .container15 {
+        width: 100vw;
+        background-color: rgb(128, 32, 154);
+        padding: 10vw;
+        text-align:left;
+    }
+
+    & .container15 h1 {
+        font-size: 3.5vw;
+        color: rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0;
+    }
+
+    & .container15 h2{
+        font-size: 1.5vw;
+        color: rgb(255, 255, 255);
+        background-color: rgba(233, 156, 254, 0.164);
+        border:rgba(163, 71, 189, 0.501);
+        padding: 1vw;
+        border-radius: 2vw;
+        margin-top: 2vw;
+    }
+}
+
+.container16 {
+    display: flex;
+    text-align: center;
+
+    & .container17 {
+        width: 100vw;
+        background-color: rgba(244, 244, 244, 0.501);
+        padding: 4vw;
+        align-items: center;
+    }
+
+    & .container17 img {
+        display: inline-block;
+        width: 30vw; 
+        height: auto; 
+        margin-right: 10vw;
+    }
+
+    & .container17 img:hover {
+        transform: scale(1.1); 
+    }
+}
+
+.formulario {
+        background-color: rgba(244, 244, 244, 0.501);
+        padding: 2vw;
+        border-radius: 1vw;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 100vw;
+        max-width: 100%;
+    }
+    
+    & .formulario h1 {
+        font-size: 2.5vw;
+        color: rgb(168, 52, 200);
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+    
+    & .formulario label {
+        margin-top: 2vh;
+        display: block;
+        font-size: 1.2vw;
+        color: rgb(92, 92, 92);
+    }
+    
+    & .formulario input {
+        width: 100%;
+        padding: 1.5vh;
+        border: 1px solid #ccc;
+        border-radius: 0.5vw;
+        font-size: 1.2vw;
+        margin-bottom: 2vh;
+        transition: border-color 0.3s;
+    }
+    
+    & .formulario input:focus {
+        border-color: rgb(168, 52, 200);
+        outline: none;
+    }
+    
+    & .formulario button {
+        width: 100;
+        padding: 1.5vh;
+        background-color: white;
+        color: rgb(145, 46, 195);
+        border: none;
+        border-radius: 0.5vw;
+        font-size: 1.2vw;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    & .formulario button:hover {
+        background-color: rgba(168, 52, 200, 0.8);
+    }
+    
+footer{
+    width: 100vw;
+    background:  rgb(128, 32, 154);
+    color: white;
+    padding: 1vw;
+    text-align: center;
+}
